@@ -71,7 +71,7 @@ footer a:hover {
 .trip-info {
   padding: 15px 20px;
 }
-
+zz
 .trip-info h3 {
   margin-bottom: 8px;
   font-size: 1.2em;
@@ -82,90 +82,4 @@ footer a:hover {
   color: #666;
   font-size: 0.95em;
 }
-
-nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px; /* Increased spacing between links */
-  margin-top: 15px;
-  font-size: 1.1em;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  font-weight: 600;
-  padding: 8px 16px;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-}
-
-nav a:hover {
-  background-color: #C9E4E9;
-  color: #007EA7;
-}
-
-.menu-toggle {
-  display: none;
-  font-size: 1.5em;
-  cursor: pointer;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
-@media (max-width: 768px) {
-  nav {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    background: #C9E4E9;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    padding-bottom: 10px;
-  }
-
-  nav.active {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  font-weight: 600;
-  padding: 8px 16px;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-}
-
-nav a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -3px;
-  width: 0;
-  height: 2px;
-  background-color: #007EA7;
-  transition: width 0.3s ease;
-}
-
-nav a:hover {
-  color: #007EA7;
-  transform: translateY(-3px); /* Slight move up on hover */
-}
-
-nav a:hover::after {
-  width: 100%; /* Animated underline */
-}
-
 
