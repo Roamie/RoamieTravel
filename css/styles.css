@@ -83,3 +83,58 @@ footer a:hover {
   font-size: 0.95em;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px; /* Increased spacing between links */
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #C9E4E9;
+  color: #007EA7;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #C9E4E9;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+
