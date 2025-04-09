@@ -137,4 +137,35 @@ nav a:hover {
   }
 }
 
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #007EA7;
+  transition: width 0.3s ease;
+}
+
+nav a:hover {
+  color: #007EA7;
+  transform: translateY(-3px); /* Slight move up on hover */
+}
+
+nav a:hover::after {
+  width: 100%; /* Animated underline */
+}
+
 
