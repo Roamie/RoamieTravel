@@ -28,6 +28,12 @@ footer a:hover {
   font-weight: bold;
 }
 
+/* Adds a custom color to the corporate menu that suits our colorpalette*/
+.custom-link-color {
+  color: #60B0BE;
+}
+
+
 /* Hero Section shadow */
 .white-shadow {
   text-shadow: -.01em -.01em .01em white,
