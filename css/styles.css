@@ -9,7 +9,7 @@ body {
 
 /* Changing the background colour for the header */
 header {
-  background-color: #1E4248;
+  background-color: #1e4248;
 }
 
 /* Changing the background color for the navigation bar */
@@ -23,8 +23,8 @@ footer a:hover {
 }
 
 /* Corporate navbar */
-#navbar-corporate a.active {
-  color: #800000;
+#navbar-corporate a .active {
+  color: #c9e4e9;
   font-weight: bold;
 }
 
