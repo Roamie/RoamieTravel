@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book a Trip - Roamie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<header>
+  <div style="text-align: center;">
+    <a href="index.html">
+      <img src="images/logoroamie.png" alt="Roamie Logo" style="height: 50px;">
+    </a>
+  </div>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <nav id="nav">
+    <a href="how-it-works.html">How does it work</a>
+    <a href="book-a-trip.html">Book a trip</a>
+    <a href="about-us.html">About Us</a>
+    <a href="corporate.html">Corporate</a>
+  </nav>
+</header>
+<section class="book-trip">
+  <h1>Book Your Next Surprise Adventure</h1>
+  <p class="subheading">Let us surprise you with the trip of a lifetime.</p>
+
+  <h2>Get Ready for Your Adventure</h2>
+  <p>Fill out the form below, and we'll start planning your surprise trip!</p>
+
+  <form action="#" method="POST">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="dates">Preferred Travel Dates</label>
+      <input type="text" id="dates" name="dates" placeholder="Enter your preferred dates" required>
+    </div>
+
+    <div class="form-group">
+      <label for="preferences">Your Travel Preferences</label>
+      <select id="preferences" name="preferences" required>
+        <option value="party">Party</option>
+        <option value="chill">Chill</option>
+        <option value="culture">Culture</option>
+        <option value="mystery">Mystery</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="special-requests">Any Special Requests?</label>
+      <textarea id="special-requests" name="special-requests" placeholder="Let us know if you have any special requests" rows="4"></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+</section>
+
+<section class="cta">
+  <h3>Still Not Sure? Let's Chat!</h3>
+  <p>If you're unsure about your trip or need help choosing, reach out to us!</p>
+  <a href="contact.html">Contact Us</a>
+</section>
+
+<footer>
+  &copy; 2025 Roamie. All rights reserved.
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('nav').classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
