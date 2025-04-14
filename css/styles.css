@@ -220,18 +220,6 @@ nav a:hover {
   padding: 15px 20px;
 }
 
-/* About Us Section */
-.about-us {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  font-size: 1.1em;
-  line-height: 1.6;
-}
-
-.about-us h1, .about-us h2 {
-  color: #f76c6c;
-}
 
 /* Call to Action */
 .cta {
