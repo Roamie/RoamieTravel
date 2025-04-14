@@ -342,3 +342,77 @@ footer a:hover {
 .button:hover {
   background-color: #555;
 }
+
+.book-trip {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.book-trip h1, .book-trip h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.book-trip p.subheading {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  padding: 12px 25px;
+  background-color: #ff6b6b;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e55b5b;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta a {
+  text-decoration: none;
+  background-color: #ff6b6b;
+  padding: 12px 25px;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta a:hover {
+  background-color: #e55b5b;
+}
