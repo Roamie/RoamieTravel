@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>How It Works - Roamie</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css" 
+  <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
 
 <header>
-  <div style="text-align: center;">
+  <div>
     <a href="index.html">
       <img src="images/logoroamie.png" alt="Roamie Logo" style="height: 50px;">
     </a>
@@ -24,33 +23,46 @@
   </nav>
 </header>
 
-  <section class="section">
+<main>
+  <section class="how-it-works">
     <h2>How Does It Work?</h2>
-    <div class="how-it-works">
-      <div class="card">
-        <h3>1. Pick Your Dates</h3>
-        <p>Tell us when you're free and how long you want to travel.</p>
+    <p class="intro-text">Roamie makes it easy, fun, and exciting to travel without all the planning stress. Here's how it works:</p>
+
+    <div class="steps">
+
+      <div class="step">
+        <strong>1. Pick Your Dates</strong>
+        <p>Choose your availability — a quick weekend or full adventure. Let us know how long you’re up for.</p>
       </div>
-      <div class="card">
-        <h3>2. Set Preferences</h3>
-        <p>Choose your vibe — party, chill, culture, or mystery.</p>
+
+      <div class="step">
+        <strong>2. Set Your Vibe</strong>
+        <p>Are you feeling festive, cultural, chill, or adventurous? Maybe a total surprise? You pick the mood.</p>
       </div>
-      <div class="card">
-        <h3>3. Get Surprised</h3>
-        <p>We’ll reveal your destination 24 hours before departure.</p>
+
+      <div class="step">
+        <strong>3. Get Surprised</strong>
+        <p>24 hours before departure, we reveal your destination. Grab your bag, go with the flow, and enjoy the ride.</p>
       </div>
+
+    </div>
+
+    <div class="cta">
+      <p>Ready for your next surprise trip?</p>
+      <a href="book-a-trip.html">Book a Trip</a>
     </div>
   </section>
+</main>
 
-  <footer>
-    &copy; 2025 Roamie. All rights reserved.
-  </footer>
+<footer>
+  &copy; 2025 Roamie. All rights reserved.
+</footer>
 
-  <script>
-    function toggleMenu() {
-      document.getElementById('nav').classList.toggle('active');
-    }
-  </script>
+<script>
+  function toggleMenu() {
+    document.getElementById('nav').classList.toggle('active');
+  }
+</script>
 
 </body>
 </html>
