@@ -517,3 +517,32 @@ footer a:hover {
   margin-bottom: 20px;
   font-family: 'Raleway', sans-serif;
 }
+
+.form-group select {
+  width: 100%;
+  padding: 10px 14px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  appearance: none;
+}
+
+.cta-button {
+  background-color: #007EA7; /* Change this to any color you like */
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #005f7a; /* Slightly darker on hover */
+}
+
