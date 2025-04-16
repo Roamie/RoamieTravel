@@ -416,3 +416,54 @@ footer a:hover {
 .cta a:hover {
   background-color: #005E6E;
 }
+
+.review-carousel {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+}
+
+.carousel-container {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.review {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+.review h4 {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #555;
+}
+
+.carousel-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carousel-buttons button {
+  background-color: #007BFF;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.carousel-buttons button:hover {
+  background-color: #0056b3;
+}
