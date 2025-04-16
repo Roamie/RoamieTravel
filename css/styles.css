@@ -425,7 +425,7 @@ footer a:hover {
 }
 
 .review-carousel-section {
-  background-color: #1E4248;
+  background-color: #f5f5f5;
   padding: 4rem 1rem;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -501,4 +501,19 @@ footer a:hover {
 #review2:checked ~ .carousel-nav label[for="review2"],
 #review3:checked ~ .carousel-nav label[for="review3"] {
   background-color: #0077cc;
+}
+
+
+.footer-titles {
+	font-size: 10em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-links {
+	font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
 }
