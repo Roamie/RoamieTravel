@@ -92,26 +92,36 @@
 <section class="review-carousel-section">
   <h2>What Roamers Say</h2>
   <div class="review-carousel">
-    <button class="carousel-btn left" onclick="changeReview(-1)">&#10094;</button>
-    
-    <div class="review-slide active">
-      <p class="review-text">"Roamie surprised us with a trip to Porto, and it was honestly the best weekend of my life!"</p>
-      <p class="review-author">– Sarah, 25</p>
+
+    <input type="radio" name="carousel" id="review1" checked>
+    <input type="radio" name="carousel" id="review2">
+    <input type="radio" name="carousel" id="review3">
+
+    <div class="review-slides">
+      <div class="review-slide slide1">
+        <p class="review-text">"Roamie surprised us with a trip to Porto, and it was honestly the best weekend of my life!"</p>
+        <p class="review-author">– Sarah, 25</p>
+      </div>
+
+      <div class="review-slide slide2">
+        <p class="review-text">"The mystery element was thrilling! I ended up in Lisbon and danced the nights away."</p>
+        <p class="review-author">– Jamal, 28</p>
+      </div>
+
+      <div class="review-slide slide3">
+        <p class="review-text">"It was smooth, stress-free, and full of surprises. Would book again in a heartbeat."</p>
+        <p class="review-author">– Elise, 22</p>
+      </div>
     </div>
 
-    <div class="review-slide">
-      <p class="review-text">"The mystery element was thrilling! I ended up in Lisbon and danced the nights away."</p>
-      <p class="review-author">– Jamal, 28</p>
+    <div class="carousel-nav">
+      <label for="review1"></label>
+      <label for="review2"></label>
+      <label for="review3"></label>
     </div>
-
-    <div class="review-slide">
-      <p class="review-text">"It was smooth, stress-free, and full of surprises. Would book again in a heartbeat."</p>
-      <p class="review-author">– Elise, 22</p>
-    </div>
-
-    <button class="carousel-btn right" onclick="changeReview(1)">&#10095;</button>
   </div>
 </section>
+
 
 
 <section class="section" id="contact">
