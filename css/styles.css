@@ -138,11 +138,59 @@ nav a:hover {
   font-family: 'Raleway', sans-serif;
 }
 
-/* How it works section */
+/* How It Works Section */
 .how-it-works {
-  padding: 40px 20px;
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
   text-align: center;
 }
+
+.how-it-works h1 {
+  font-family: "Patrick Hand", cursive;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.step {
+  background: var(--light);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.step strong {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: var(--accent-color);
+}
+
+@media (min-width: 768px) {
+  .steps {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .step {
+    flex: 1;
+  }
+}
+
 
 /* Trip List - Horizontal with Vertical Images */
 .trip-list {
@@ -177,8 +225,6 @@ nav a:hover {
 
 .trip-info {
   padding: 15px 20px;
-}
-
 }
 
 
