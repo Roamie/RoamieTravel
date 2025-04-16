@@ -91,29 +91,36 @@
 
 	<section class="section review-carousel">
   <h2 style="text-align: center;">What Our Roamers Say</h2>
-  <div class="carousel-container">
-    <div class="carousel" id="reviewCarousel">
-      <div class="review">
+  
+  <div class="carousel-wrapper">
+
+    <input type="radio" name="review" id="review1" checked>
+    <input type="radio" name="review" id="review2">
+    <input type="radio" name="review" id="review3">
+
+    <div class="carousel">
+      <div class="review" id="r1">
         <p>🌍 “Best spontaneous trip ever! I ended up in Porto and made friends for life. Can’t wait for my next Roamie surprise!”</p>
         <h4>- Lotte, 24</h4>
       </div>
-      <div class="review">
+      <div class="review" id="r2">
         <p>🧳 “Booked with zero expectations and got a full-blown cultural adventure in Lisbon. Everything was perfectly arranged.”</p>
         <h4>- Milan, 27</h4>
       </div>
-      <div class="review">
+      <div class="review" id="r3">
         <p>💃 “The mystery aspect made it so exciting. Paris was a dream! Even the hotel felt curated just for me.”</p>
         <h4>- Sara, 22</h4>
       </div>
     </div>
 
-    <div class="carousel-buttons">
-      <button onclick="prevReview()">←</button>
-      <button onclick="nextReview()">→</button>
+    <div class="carousel-nav">
+      <label for="review1"></label>
+      <label for="review2"></label>
+      <label for="review3"></label>
     </div>
+
   </div>
 </section>
-
 
 <section class="section" id="contact">
   <h2>Contact Us</h2>
