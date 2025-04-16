@@ -519,7 +519,7 @@ footer a:hover {
 	list-style-type: none;
 	padding: 0; 
 	margin: 0; 
-	font-size: 1em;
+	font-size: 0.5em;
     font-weight: 700;
     margin-bottom: 20px;
     font-family: 'Raleway', sans-serif;
@@ -539,7 +539,7 @@ footer a:hover {
 }
 
 .cta-button {
-  background-color: #007EA7; /* Change this to any color you like */
+  background-color: #007EA7; 
   color: #fff;
   padding: 12px 24px;
   border: none;
