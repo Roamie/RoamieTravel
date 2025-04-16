@@ -530,18 +530,46 @@ footer a:hover {
 	font-size: 1.5em;
     font-weight: 700;
     margin-bottom: 20px;
+	margin-left: 120px;
     font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
 }
 
 .footer-links {
 	list-style-type: none;
-	padding-left: 60px; 
-	margin-left: 60px; 
+	padding-left: 0px; 
+	margin-left: 120px; 
 	font-size: 1em;
     font-weight: 700;
     margin-bottom: 20px;
     font-family: 'Raleway', sans-serif;
 	text-align: left;
+	color: #FFFFFF;
+}
+
+.column {
+	text-align: left;
+}
+
+/* makes the links the same color as the other text and gives them a hover effect */
+.footer-links a {
+	text-decoration: none;
+	color: inherit;
+	transition: color 0.3s ease; 
+}
+
+.footer-links a:hover{
+	color: #1e4248;
+}
+
+/* the look of the footer itself */
+.footer-look {
+	background-color: #60B0BE;
+}
+
+.rights-reserved {
+	text-align: center;
+	color: #FFFFFF;
 }
 /* the end of the footer look */
 
