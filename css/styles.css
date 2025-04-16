@@ -344,7 +344,6 @@ footer a:hover {
   text-align: center;
   cursor: pointer;
   width: 100%;
-	  margin-bottom: 16px;
 }
 
 .button:hover {
@@ -554,4 +553,5 @@ footer a:hover {
 .cta-button:hover {
   background-color: #005f7a; /* Slightly darker on hover */
 }
+
 
