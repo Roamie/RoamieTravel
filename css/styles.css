@@ -138,16 +138,6 @@ nav a:hover {
   font-family: 'Raleway', sans-serif;
 }
 
-
-/* All the black headers on the page bodies */
-.black-headers { 
-  font-family: "Patrick Hand", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-}
-
 /* How It Works Section */
 .how-it-works {
   max-width: 800px;
