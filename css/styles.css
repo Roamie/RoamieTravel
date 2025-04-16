@@ -124,11 +124,11 @@ nav a:hover {
 }
 
 /* Section Layout */
-.section h1 {
-  font-family: "Patrick Hand", cursive;
-  font-size: 60px;
-  font-weight: 400;
-  font-style: normal;
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
 }
 
 .section h2 {
@@ -138,16 +138,25 @@ nav a:hover {
   font-family: 'Raleway', sans-serif;
 }
 
+
+/* All the black headers on the page bodies */
+.black-headers { 
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
+
 /* How It Works Section */
-.orange-headers {
-	color: #ef8928;
+.how-it-works {
   max-width: 800px;
   margin: 80px auto;
   padding: 20px;
   text-align: center;
 }
 
-.orange-headers h1 {
+.how-it-works h1 {
   font-family: "Patrick Hand", cursive;
   font-size: 60px;
   font-weight: 400;
@@ -164,7 +173,7 @@ nav a:hover {
   background: var(--light);
   padding: 20px;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.20);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
 }
