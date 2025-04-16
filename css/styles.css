@@ -138,59 +138,11 @@ nav a:hover {
   font-family: 'Raleway', sans-serif;
 }
 
-/* How It Works Section */
+/* How it works section */
 .how-it-works {
-  max-width: 800px;
-  margin: 80px auto;
-  padding: 20px;
+  padding: 40px 20px;
   text-align: center;
 }
-
-.how-it-works h1 {
-  font-family: "Patrick Hand", cursive;
-  font-size: 60px;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.steps {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.step {
-  background: var(--light);
-  padding: 20px;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s, box-shadow 0.3s;
-  cursor: pointer;
-}
-
-.step:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-}
-
-.step strong {
-  display: block;
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  color: var(--accent-color);
-}
-
-@media (min-width: 768px) {
-  .steps {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .step {
-    flex: 1;
-  }
-}
-
 
 /* Trip List - Horizontal with Vertical Images */
 .trip-list {
@@ -225,6 +177,8 @@ nav a:hover {
 
 .trip-info {
   padding: 15px 20px;
+}
+
 }
 
 
@@ -553,44 +507,4 @@ footer a:hover {
   background-color: #005f7a; /* Slightly darker on hover */
 }
 
-/* Sliding Effect using Flexbox */
-.carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.carousel {
-  display: flex;
-  gap: 20px;
-  transition: transform 0.5s ease-in-out;
-}
-
-/* Button Styling for navigation arrows */
-.prev-btn, .next-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 30px;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 10;
-  border-radius: 50%;
-}
-
-.prev-btn {
-  left: 10px;
-}
-
-.next-btn {
-  right: 10px;
-}
-
-.prev-btn:hover, .next-btn:hover {
-  background: rgba(0, 0, 0, 0.8);
-}
 
