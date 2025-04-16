@@ -215,7 +215,8 @@ nav a:hover {
 .trip-list {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  justify-content: center;
+  gap: 2rem;
   overflow-x: auto;
   padding-bottom: 20px;
 }
