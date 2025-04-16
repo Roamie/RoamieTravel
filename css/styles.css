@@ -417,53 +417,153 @@ footer a:hover {
   background-color: #005E6E;
 }
 
-.review-carousel {
+.reviews-section {
   background-color: #f5f5f5;
-  padding: 60px 20px;
+  padding: 50px 0;
+  text-align: center;
 }
 
-.carousel-container {
-  max-width: 700px;
-  margin: 0 auto;
+.reviews-container {
   position: relative;
+  width: 80%;
+  margin: 0 auto;
   overflow: hidden;
 }
 
-.carousel {
+.review-carousel {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease;
+  position: relative;
 }
 
-.review {
+.review-item {
   min-width: 100%;
   box-sizing: border-box;
-  padding: 30px;
-  text-align: center;
-  font-style: italic;
-}
-
-.review h4 {
-  margin-top: 20px;
-  font-weight: 600;
-  color: #555;
-}
-
-.carousel-buttons {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.carousel-buttons button {
-  background-color: #007BFF;
-  border: none;
-  color: #fff;
-  padding: 10px 15px;
-  margin: 0 5px;
-  font-size: 16px;
+  padding: 20px;
+  background-color: #fff;
   border-radius: 8px;
-  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.carousel-buttons button:hover {
-  background-color: #0056b3;
+.review-item p {
+  font-size: 18px;
+  color: #333;
+}
+
+.review-item p:nth-child(2) {
+  font-style: italic;
+  color: #777;
+}
+
+/* Hide the radio buttons */
+input[type="radio"] {
+  display: none;
+}
+
+/* Default state of the carousel (showing the first review) */
+#slide1:checked ~ .review-carousel {
+  transform: translateX(0%);
+}
+
+#slide2:checked ~ .review-carousel {
+  transform: translateX(-100%);
+}
+
+#slide3:checked ~ .review-carousel {
+  transform: translateX(-200%);
+}
+
+#slide4:checked ~ .review-carousel {
+  transform: translateX(-300%);
+}
+
+/* Navigation buttons */
+.carousel-navigation label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+  z-index: 1;
+  user-select: none;
+}
+
+.carousel-navigation label:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-navigation .prev {
+  left: 10px;
+}
+
+.carousel-navigation .next {
+  right: 10px;
+}
+
+.review-carousel-section {
+  background-color: #f5f5f5;
+  padding: 4rem 1rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.review-carousel {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.review-slide {
+  display: none;
+  transition: opacity 0.4s ease;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.review-slide.active {
+  display: block;
+}
+
+.review-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.review-author {
+  font-weight: 600;
+  color: #0077cc;
+}
+
+.carousel-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #0077cc;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 1rem;
+  transition: color 0.2s ease;
+}
+
+.carousel-btn:hover {
+  color: #005fa3;
+}
+
+.carousel-btn.left {
+  left: -10px;
+}
+
+.carousel-btn.right {
+  right: -10px;
 }
