@@ -164,7 +164,7 @@ nav a:hover {
 .hero .subheading {
   font-size: 1.5em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-  margin-top: 10px; 
+  margin-top: 0px; 
 }
 
 /* Section Layout */
@@ -268,8 +268,6 @@ nav a:hover {
   padding-bottom: 20px;
 }
 
-<<<<<<< HEAD
-=======
 .trip-card {
   min-width: 300px;
   max-width: 300px;
@@ -281,7 +279,6 @@ nav a:hover {
   flex-shrink: 0;
   margin-top: 20px;
 }
->>>>>>> 79acf3e2a37c9fe8b0b56643b0f02402d5612aa0
 
 .trip-card:hover {
   transform: translateY(-5px);
@@ -818,7 +815,7 @@ body {
   background-color: #FFFCF8;
   color: #333;
   margin: 0;
-  padding: 40px 20px;
+  padding: 0px 0px;
 }
 
 
