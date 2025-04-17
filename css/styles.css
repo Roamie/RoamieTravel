@@ -222,27 +222,53 @@ nav a:hover {
   padding-bottom: 20px;
 }
 
-.trip-card {
-  min-width: 300px;
-  max-width: 300px;
-  background: var(--light);
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.3s ease;
-  flex-shrink: 0;
-}
 
 .trip-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
 }
 
-.trip-card img {
-  width: 100%;
-  height: 450px;
-  object-fit: cover;
+/* Ensure trip-card images ignore any global max-width and fill the card */
+.trip-card {
+  overflow: hidden;               /* hide any overflow */
+  position: relative;
 }
+
+.trip-card img {
+  display: block;
+  max-width: 100% !important;     /* override any global img max-width */
+  width: 100% !important;         /* fill the card’s width */
+  height: 200px;                   /* set your desired card image height */
+  object-fit: cover;               /* crop/scale to cover without distortion */
+  object-position: center;         /* center the image in its frame */
+  border-top-left-radius: 16px;    /* match your card’s rounding */
+  border-top-right-radius: 16px;
+}
+
+/* Add a soft shadow and background to each card */
+.trip-card {
+  background: var(--light);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Mobile: stack cards vertically */
+@media (max-width: 600px) {
+  .trip-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .trip-card {
+    width: 90%;       /* almost full‑width on mobile */
+    max-width: 350px; /* optional cap */
+    margin: 0 auto;   /* center each card */
+  }
+}
+
 
 .trip-info {
   padding: 15px 20px;
@@ -706,3 +732,15 @@ picture {
 	color: #FFFFFF;
 }
 /* the end of the footer look */
+
+/* Base styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFFCF8;
+  color: #333;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+
+
