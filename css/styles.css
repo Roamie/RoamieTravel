@@ -516,27 +516,6 @@ button:hover {
 }
 
 
-/* the look of the footer text */
-.footer-titles {
-	font-size: 1.5em;
-    font-weight: 700;
-    margin-bottom: 20px;
-	margin-left: 120px;
-    font-family: 'Raleway', sans-serif;
-	color: #FFFFFF;
-}
-
-.footer-links {
-	list-style-type: none;
-	padding-left: 0px; 
-	margin-left: 120px; 
-	font-size: 1em;
-    font-weight: 700;
-    margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-	text-align: left;
-	color: #FFFFFF;
-}
 
 .column {
 	text-align: left;
@@ -680,7 +659,32 @@ picture {
 
 
 
+
 /* footer section */
+
+/* the look of the footer text */
+.footer-titles {
+	font-size: 1.5em;
+    font-weight: 700;
+	margin-top: 20px;
+    margin-bottom: 20px;
+	margin-left: 120px;
+    font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+}
+
+.footer-links {
+	list-style-type: none;
+	padding-left: 0px; 
+	margin-top: 20px;
+	margin-left: 120px; 
+	font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+	text-align: left;
+	color: #FFFFFF;
+}
 /* makes the links the same color as the other text and gives them a hover effect */
 .footer-links a {
 	text-decoration: none;
