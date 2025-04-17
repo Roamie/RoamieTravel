@@ -184,6 +184,7 @@ nav a:hover {
   background: var(--light);
   padding: 20px;
   margin-top: 20px;
+  margin-bottom: 40px;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -529,9 +530,9 @@ button:hover {
 }
 
 .column-vision {
-	margin-right: 5rem;
-	margin-left: 22rem;
-	margin-bottom: 3rem;
+	margin-right: 8rem;
+	margin-left: 25rem;
+	margin-bottom: 3.5rem;
 }
 
 
@@ -611,12 +612,18 @@ button:hover {
 /* polaroid section */
 /* code from https://www.w3schools.com/cssref/tryit.php?filename=trycss3_image_gallery */
 div.polaroid {
-  width: 284px;
+  width: 300px;
   padding: 10px 10px 20px 10px;
   border: 1px solid #BFBFBF;
   background-color: white;
   box-shadow: 10px 10px 5px #aaaaaa;
   margin-left: 2rem;
+}
+
+img.polaroid-img {
+	width: 600px;
+	height: auto;
+	object-fit: cover; /* makes sure the image is not distorted*/
 }
 
 div.rotate_left {
