@@ -1,6 +1,7 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2family=Raleway:wght@400;700&family=Poppins:wght@400;600&display=swap');
-@import url ("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
 
 /* CSS Variables */
 :root {
@@ -120,7 +121,7 @@ nav a:hover {
 .hero .subheading {
   font-size: 1.5em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-  margin-top: 10px; /* Optional: Adds space above the subheading */
+  margin-top: 10px; 
 }
 
 /* Section Layout */
@@ -142,7 +143,7 @@ nav a:hover {
 /* the look of the big playful headings in between sections */
 .big-headings {
   max-width: 100%;
-  margin: 40px auto;
+  margin: 20px auto;
   padding: 20px;
   text-align: center;
 }
@@ -172,6 +173,8 @@ nav a:hover {
   font-style: normal;
 }
 
+
+/* the boxes with the steps */
 .steps {
   display: flex;
   flex-direction: column;
@@ -222,6 +225,20 @@ nav a:hover {
   padding-bottom: 20px;
 }
 
+<<<<<<< HEAD
+=======
+.trip-card {
+  min-width: 300px;
+  max-width: 300px;
+  background: var(--light);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+  margin-top: 20px;
+}
+>>>>>>> 79acf3e2a37c9fe8b0b56643b0f02402d5612aa0
 
 .trip-card:hover {
   transform: translateY(-5px);
@@ -463,7 +480,7 @@ button:hover {
 
 /* review section */
 .review-carousel-section {
-  background-color: #F4E9AC;
+  background-color: #FFFFFF;
   padding: 4rem 1rem;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -492,16 +509,16 @@ button:hover {
   opacity: 0;
   transform: scale(0.95);
   transition: all 0.4s ease-in-out;
-  background: #fff;
+  background: #F4E9AC;
   padding: 2rem;
-  border-radius: 1.5rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 62% 38% 69% 31% / 59% 50% 50% 41% 
 }
 
 .review-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #333;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -517,6 +534,7 @@ button:hover {
   opacity: 1;
   transform: scale(1);
   z-index: 1;
+  border-radius: 62% 38% 69% 31% / 59% 50% 50% 41% 
 }
 
 /* Carousel dots */
@@ -618,6 +636,24 @@ button:hover {
   background: rgba(0, 0, 0, 0.8);
 }
 
+
+
+
+/* polaroid section */
+/* code from https://www.w3schools.com/cssref/tryit.php?filename=trycss3_image_gallery */
+div.polaroid {
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.rotate_left {
+  float: left;
+  transform: rotate(-8deg);
+}
+/* end of polaroid section */
 
 
 
