@@ -120,7 +120,7 @@ nav a:hover {
 .hero .subheading {
   font-size: 1.5em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-  margin-top: 10px; /* Optional: Adds space above the subheading */
+  margin-top: 10px; 
 }
 
 /* Section Layout */
@@ -596,6 +596,24 @@ button:hover {
   background: rgba(0, 0, 0, 0.8);
 }
 
+
+
+
+/* polaroid section */
+/* code from https://www.w3schools.com/cssref/tryit.php?filename=trycss3_image_gallery */
+div.polaroid {
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.rotate_left {
+  float: left;
+  transform: rotate(-8deg);
+}
+/* end of polaroid section */
 
 
 
