@@ -618,12 +618,6 @@ button:hover {
 
 /* team cards section */
 .profile {
-  display: grid;
-  gap: 1rem;
-  grid-auto-columns: 1fr;
-  grid-template-areas:
-    "image name"
-    "image description";
   max-width: 55ch;
   padding: var(--size-400);
   margin-left: auto;
@@ -643,17 +637,35 @@ picture {
   display: block;
 }
 
-.profile__image {
-  /*   border-top-left-radius: 1rem 4rem; */
+/* every profile picture has a different shape */
+/* inspiration from https://www.youtube.com/watch?v=4ALLynsZ0u0 */
+.profile-image-yoeri {
   border-radius: 56% 44% 73% 27% / 45% 68% 32% 55%;
-  grid-area: image;
+  
 }
 
+.profile-image-sanne {
+  border-radius: 31% 69% 42% 58% / 51% 44% 56% 49%;
+  float: right;
+}
+
+.profile-image-geri {
+  border-radius: 50% 50% 65% 35% / 57% 73% 27% 43%;
+  float: right;
+}
+
+/* general look that applies to all three profiles */
 .profile-name {
 	color: #ef8928;
+	margin-top: 90px;
 }
 
-.profile__description {
+.column-image {
+	margin-left: 12rem;
+}
+
+
+.profile-description {
   grid-area: description;
   margin-top: 0;
 }
@@ -663,12 +675,7 @@ picture {
 	color: inherit;
 	transition: color 0.3s ease; 
 }
-
-.profile-link :hover{
-	color: #60B0BE;
-}
-
-
+/* Profile look end */
 
 
 
