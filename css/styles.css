@@ -1,7 +1,6 @@
 /* Importing Google Fonts */
-@import url('https://fonts.googleapis.com/css2family=Raleway:wght@400;700&family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Poppins:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
-
 
 /* CSS Variables */
 :root {
@@ -26,55 +25,99 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
+/* Header wrapper */
 header {
   background: var(--main-color);
   padding: 20px;
-  text-align: center;
-  position: relative;
+  text-align: center;       /* center children by default */
+  position: relative;       /* for the mobile toggle button */
 }
 
-header h1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 2.5em;
-  font-weight: 700;
-  color: var(--text-color);
+/* Logo sits in its own row */
+.logo-container img {
+  height: 50px;
+  display: inline-block;    /* center via text-align on header */
+  margin-bottom: 16px;      /* spacing below logo */
 }
 
-header h2 {
-	font-family: "Patrick Hand", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* Navigation */
+/* Desktop nav: centered inline links */
 nav {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;     /* shrink to only the width of its contents */
   gap: 20px;
-  margin-top: 10px;
-  flex-wrap: wrap;
+  flex-wrap: wrap;          /* wrap on very small screens */
+  justify-content: center;
 }
 
+/* Nav link styling */
 nav a {
   text-decoration: none;
   font-weight: 600;
   color: var(--text-color);
   transition: color 0.3s;
 }
-
 nav a:hover {
   color: var(--accent-color);
 }
 
+/* Mobile toggle (hidden on desktop) */
 .menu-toggle {
   display: none;
-  font-size: 1.5em;
-  cursor: pointer;
   position: absolute;
   top: 20px;
   right: 20px;
+  font-size: 1.5em;
+  cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  /* Hide the desktop nav links by default */
+  nav {
+    display: none;
+    flex-direction: column;
+    background: var(--main-color);
+    position: absolute;
+    top: 60px;   /* just below header padding */
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+  /* Show nav when .active is toggled on */
+  nav.active {
+    display: flex;
+  }
+  /* Show hamburger */
+  .menu-toggle {
+    display: block;
+  }
+}
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  /* Hide desktop nav */
+  nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: var(--main-color);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  /* Show nav when toggled */
+  nav.active {
+    display: flex;
+  }
+
+  /* Show the hamburger */
+  .menu-toggle {
+    display: block;
+  }
+}
+
 
 @media (max-width: 768px) {
   nav {
