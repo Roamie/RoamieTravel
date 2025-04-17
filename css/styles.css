@@ -641,7 +641,7 @@ picture {
 /* inspiration from https://www.youtube.com/watch?v=4ALLynsZ0u0 */
 .profile-image-yoeri {
   border-radius: 56% 44% 73% 27% / 45% 68% 32% 55%;
-  
+  float: right;
 }
 
 .profile-image-sanne {
