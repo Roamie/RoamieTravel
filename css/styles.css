@@ -700,17 +700,11 @@ div.polaroid {
   margin-left: 2rem;
 }
 
-img.polaroid-img {
-	width: 600px;
-	height: auto;
-	object-fit: cover; /* makes sure the image is not distorted*/
-}
-
 div.rotate_left {
   float: left;
   transform: rotate(-8deg);
 }
-/* end of polaroid section */
+/* end of polaroid section 
 
 
 
@@ -731,7 +725,7 @@ div.rotate_left {
 /* Make images easier to work with */
 img,
 picture {
-  max-width: 75%;
+  max-width: 100%;
   display: block;
 }
 
