@@ -542,27 +542,6 @@ button:hover {
 	text-align: left;
 }
 
-/* makes the links the same color as the other text and gives them a hover effect */
-.footer-links a {
-	text-decoration: none;
-	color: inherit;
-	transition: color 0.3s ease; 
-}
-
-.footer-links a:hover{
-	color: #1e4248;
-}
-
-/* the look of the footer itself */
-.footer-look {
-	background-color: #60B0BE;
-}
-
-.rights-reserved {
-	text-align: center;
-	color: #FFFFFF;
-}
-/* the end of the footer look */
 
 
 .form-group select {
@@ -634,3 +613,81 @@ button:hover {
   background: rgba(0, 0, 0, 0.8);
 }
 
+
+
+
+/* team cards section */
+.profile {
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "image name"
+    "image description";
+  max-width: 55ch;
+  padding: var(--size-400);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .profile {
+    transform: translateX(-10%);
+  }
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 75%;
+  display: block;
+}
+
+.profile__image {
+  /*   border-top-left-radius: 1rem 4rem; */
+  border-radius: 56% 44% 73% 27% / 45% 68% 32% 55%;
+  grid-area: image;
+}
+
+.profile__name h1{
+  grid-area: name;
+  margin: 0;
+  padding: 0;
+}
+
+.profile__description {
+  grid-area: description;
+  margin-top: 0;
+}
+
+.profile-button {
+  margin-left: auto;
+  transform: translateX(100%);
+}
+
+
+
+
+
+/* footer section */
+/* makes the links the same color as the other text and gives them a hover effect */
+.footer-links a {
+	text-decoration: none;
+	color: inherit;
+	transition: color 0.3s ease; 
+}
+
+.footer-links a:hover{
+	color: #1e4248;
+}
+
+/* the look of the footer itself */
+.footer-look {
+	background-color: #60B0BE;
+}
+
+.rights-reserved {
+	text-align: center;
+	color: #FFFFFF;
+}
+/* the end of the footer look */
