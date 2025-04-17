@@ -588,7 +588,6 @@ button:hover {
   height: 12px;
   width: 12px;
   margin: 0 6px;
-  background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.3s ease;
@@ -823,7 +822,7 @@ picture {
 /* Base styling */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #FFFCF8;
+  background-color: #FFFFFF;
   color: #333;
   margin: 0;
   padding: 0px 0px;
