@@ -716,6 +716,19 @@ div.rotate_left {
   float: left;
   transform: rotate(-8deg);
 }
+
+div.rotate_right {
+  float: left;
+  transform: rotate(7deg);
+}
+
+div.rotate_right-howitworks {
+  margin: auto;
+  margin-bottom: 50px;
+  transform: rotate(5deg);
+  
+  
+}
 /* end of polaroid section 
 
 
