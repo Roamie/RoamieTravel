@@ -187,6 +187,15 @@ nav a:hover {
 }
 
 
+.section-bottom-page {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+
+
 /* the look of the big playful headings in between sections */
 .big-headings {
   max-width: 100%;
