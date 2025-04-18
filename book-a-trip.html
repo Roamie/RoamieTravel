@@ -80,8 +80,11 @@
       <label for="special-requests">Any Special Requests?</label>
       <textarea id="special-requests" name="special-requests" placeholder="Let us know if you have any special requests" rows="4"></textarea>
     </div>
-
-    <button type="submit" class="submit-btn">Submit</button>
+	
+	  <div class="popup" onclick="myFunction()">
+		  <button type="submit" class="submit-btn">Submit</button> <br/>
+  		  <span class="popuptext" id="myPopup">Thank you for booking! We will contact you via e-mail.</span>
+	</div>
   </form>
 </section>
 	
@@ -98,7 +101,7 @@
   <a href="contact.html">Contact Us</a>
 </section>
 	
-	
+
 
 
 <!-- the footer with our contact, quick links, and Instagram -->
@@ -139,6 +142,16 @@
 	
 <!-- end of the footer -->
 
+
+	
+<!-- submit button popup action -->
+<script>
+// When the user clicks on <div>, open the popup
+	function myFunction() {
+	  var popup = document.getElementById("myPopup");
+	  popup.classList.toggle("show");
+	}
+</script>
 	
 <!-- toggle menu for responsive design -->
 <script>
