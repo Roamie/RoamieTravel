@@ -5,7 +5,6 @@
 /* CSS Variables */
 :root {
   --main-color: #C9E4E9;
-  --accent-color: #007EA7;
   --text-color: #333;
   --background-color: #FFFFFF;
   --light: #fff;
@@ -219,7 +218,7 @@ nav a:hover {
 .how-it-works {
   max-width: 800px;
   margin: 80px auto 0px auto;
-  padding: 20px auto 0px auto;
+  padding: 20px 0px;
   text-align: center;
 }
 
@@ -409,13 +408,11 @@ button:hover {
   width: 90%;
   max-width: 1500px;
   margin: 0 auto;
-  padding: 0,5rem;
 }
 
 @media (max-width: 768px) {
   .content-wrapper {
     width: 95%;
-    padding: 0,5rem;
   }
 	
 .column-about,
@@ -829,7 +826,7 @@ button:hover {
 /* polaroid section */
 /* code from https://www.w3schools.com/cssref/tryit.php?filename=trycss3_image_gallery */
 div.polaroid {
-  width: 100%px;
+  width: 100%;
   max-width: 300px; 
   padding: 10px 10px 20px 10px;
   border: 1px solid #BFBFBF;
