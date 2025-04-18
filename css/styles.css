@@ -717,6 +717,28 @@ button:hover {
   background-color: #005f7a; /* Slightly darker on hover */
 }
 
+
+/* index top button */
+.cta-button {
+  background-color: #EF8928; 
+  text-decoration: none;
+  color: #fff;
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #005f7a; /* Slightly darker on hover */
+
+
+
+
 /* Sliding Effect using Flexbox */
 .carousel-container {
   display: flex;
