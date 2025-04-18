@@ -167,6 +167,7 @@ nav a:hover {
 
 .hero .subheading {
   font-size: 1.5em;
+  padding-bottom: 10px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   margin-top: 0px; 
 }
