@@ -485,7 +485,7 @@ button:hover {
 
 .submit-btn {
   padding: 12px 25px;
-  background-color: #0093AD;
+  background-color: #EF8928;
   color: white;
   font-size: 16px;
   border-radius: 4px;
@@ -506,7 +506,7 @@ button:hover {
 
 .cta a {
   text-decoration: none;
-  background-color: #0093AD;
+  background-color: #EF8928;
   padding: 12px 25px;
   color: white;
   font-size: 16px;
@@ -590,6 +590,7 @@ button:hover {
   margin: 0 6px;
   border-radius: 50%;
   display: inline-block;
+  background-color: #E3E3E3;
   transition: background-color 0.3s ease;
 }
 
@@ -629,7 +630,7 @@ button:hover {
 }
 
 .cta-button {
-  background-color: #007EA7; 
+  background-color: #EF8928; 
   color: #fff;
   padding: 12px 24px;
   border: none;
