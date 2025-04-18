@@ -723,7 +723,7 @@ button:hover {
   background-color: #EF8928; 
   text-decoration: none;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 0;
   padding: 12px 24px;
   border: none;
   border-radius: 8px;
