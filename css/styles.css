@@ -194,12 +194,6 @@ nav a:hover {
   text-align: center;
 }
 
-.section-button {
-  padding: 0;
-  max-width: 1000px;
-  margin: auto;
-  text-align: center;
-}
 
 
 /* the look of the big playful headings in between sections */
@@ -716,34 +710,13 @@ button:hover {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #005f7a; /* Slightly darker on hover */
-}
-
-
-/* index top button */
-.cta-button {
-  background-color: #EF8928; 
   text-decoration: none;
-  color: #fff;
-  margin-top: 0;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
-  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
   background-color: #005f7a; /* Slightly darker on hover */
-
-
-
+}
 
 /* Sliding Effect using Flexbox */
 .carousel-container {
