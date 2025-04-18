@@ -23,9 +23,9 @@ body {
   background: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
-  background-image: url("../images/dotted-line-background.jpg");
+  background-image: url("../images/background-image-lines.jpg");
   background-size: contain;
-  background-repeat: repeat;
+  background-repeat: repeat-y;
 }
 
 /* Header wrapper */
@@ -525,7 +525,6 @@ button:hover {
 
 /* review section */
 .review-carousel-section {
-  background-color: #FFFFFF;
   padding: 4rem 1rem;
   text-align: center;
   font-family: 'Poppins', sans-serif;
