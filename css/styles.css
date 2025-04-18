@@ -659,7 +659,7 @@ button:hover {
 }
 
 .column-vision {
-  margin-left: 5rem;
+  margin-left: 22rem;
   margin-right: 5rem;
   margin-bottom: 2rem;
 }
@@ -668,7 +668,7 @@ button:hover {
 @media (max-width: 1024px) {
   .column-about,
   .column-vision {
-    margin-left: 15rem;
+    margin-left: 2rem;
     margin-right: 2rem;
   }
 }
