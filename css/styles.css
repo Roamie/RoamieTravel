@@ -194,6 +194,12 @@ nav a:hover {
   text-align: center;
 }
 
+.section-button {
+  padding: 0;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
 
 
 /* the look of the big playful headings in between sections */
