@@ -188,9 +188,9 @@ nav a:hover {
 
 
 .section-bottom-page {
-  padding: 60px 20px;
+  padding: 00px 20px 0px 20px;
   max-width: 1000px;
-  margin: auto;
+  margin: 20px;
   text-align: center;
 }
 
@@ -217,8 +217,8 @@ nav a:hover {
 /* How It Works Section */
 .how-it-works {
   max-width: 800px;
-  margin: 80px auto;
-  padding: 20px;
+  margin: 80px auto 0px auto;
+  padding: 20px auto 0px auto;
   text-align: center;
 }
 
@@ -351,7 +351,7 @@ nav a:hover {
   background: var(--main-color);
   color: var(--text-color);
   text-align: center;
-  padding: 40px 20px;
+  padding: 40px 20px ;
   border-radius: 12px;
 }
 
